@@ -14,3 +14,7 @@ if (randomNumber1 == randomNumber2) {
 } else {
 	document.querySelector("h1").innerHTML = "Player 2 wins 🏆!";
 }
+
+function refreshPage() {
+	window.location.reload();
+}
